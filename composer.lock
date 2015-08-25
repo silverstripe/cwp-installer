@@ -213,7 +213,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp-themes/default.git",
-                "reference": "b561f959ddeca54e35117b9ef2161876853f7978"
+                "reference": "3554e6234f5ff687c0cf71ff5504627ecb843d09"
             },
             "require": {
                 "composer/installers": "*",
@@ -229,7 +229,7 @@
                 }
             },
             "description": "CWP Default Theme",
-            "time": "2015-08-18 00:15:51"
+            "time": "2015-08-25 22:39:19"
         },
         {
             "name": "cwp/cwp",
@@ -900,12 +900,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-comments.git",
-                "reference": "d3a9e7800284f0fbe30629ee51b2ca61afd6c660"
+                "reference": "31dd95a76d2f4cb92b5b6631418041083c648967"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-comments/zipball/d3a9e7800284f0fbe30629ee51b2ca61afd6c660",
-                "reference": "d3a9e7800284f0fbe30629ee51b2ca61afd6c660",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-comments/zipball/31dd95a76d2f4cb92b5b6631418041083c648967",
+                "reference": "31dd95a76d2f4cb92b5b6631418041083c648967",
                 "shasum": ""
             },
             "require": {
@@ -937,7 +937,7 @@
                 "comments",
                 "silverstripe"
             ],
-            "time": "2015-08-19 23:13:22"
+            "time": "2015-08-25 22:47:06"
         },
         {
             "name": "silverstripe/content-widget",
@@ -1392,12 +1392,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-australia/silverstripe-queuedjobs.git",
-                "reference": "20dc536b79386f44984a5e403a88a930e443037e"
+                "reference": "52c081c530f3db010747ae7609f71c7d6fa22277"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-australia/silverstripe-queuedjobs/zipball/20dc536b79386f44984a5e403a88a930e443037e",
-                "reference": "20dc536b79386f44984a5e403a88a930e443037e",
+                "url": "https://api.github.com/repos/silverstripe-australia/silverstripe-queuedjobs/zipball/52c081c530f3db010747ae7609f71c7d6fa22277",
+                "reference": "52c081c530f3db010747ae7609f71c7d6fa22277",
                 "shasum": ""
             },
             "require": {
@@ -1427,7 +1427,7 @@
                 "jobs",
                 "silverstripe"
             ],
-            "time": "2015-08-20 18:39:10"
+            "time": "2015-08-25 06:07:17"
         },
         {
             "name": "silverstripe/registry",
