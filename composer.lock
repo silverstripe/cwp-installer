@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "35fc09d6690623cf456866a98bdf5dfc",
+    "hash": "02841d21148173f3d659918e89c4ac50",
     "packages": [
         {
             "name": "assertchris/hash-compat",
@@ -249,22 +249,22 @@
         },
         {
             "name": "cwp/cwp-core",
-            "version": "dev-master",
+            "version": "1.1.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-core.git",
-                "reference": "a9b84a6d1603ba5632b85778fb46267d95c1bb60"
+                "reference": "2e0390eb2b8400dcedc491244a5f62a35f9f993b"
             },
             "require": {
                 "composer/installers": "*",
                 "silverstripe/cms": "~3.1",
-                "silverstripe/environmentcheck": "dev-master",
+                "silverstripe/environmentcheck": "1.1.1",
                 "silverstripe/framework": "~3.1",
-                "silverstripe/hybridsessions": "dev-master"
+                "silverstripe/hybridsessions": "1.1.0"
             },
             "type": "silverstripe-module",
             "description": "CWP basic compatibility module. Use for migrations.",
-            "time": "2015-08-20 04:35:29"
+            "time": "2015-08-26 05:28:12"
         },
         {
             "name": "cwp/cwp-recipe-basic",
@@ -272,15 +272,15 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-basic.git",
-                "reference": "f5f808fe7ef45ad70a60e9d409d8e15978c10fcd"
+                "reference": "2c9f99682f585fdc0371295cd5c5c45531477559"
             },
             "require": {
                 "cwp/cwp": "dev-master",
-                "cwp/cwp-core": "dev-master",
+                "cwp/cwp-core": "1.1.1.x-dev",
                 "php": ">=5.3.2",
                 "silverstripe/advancedworkflow": "3.2.1",
                 "silverstripe/cms": "3.1.13",
-                "silverstripe/documentconverter": "dev-master",
+                "silverstripe/documentconverter": "1.0.8",
                 "silverstripe/externallinks": "dev-master",
                 "silverstripe/framework": "3.1.13",
                 "silverstripe/fulltextsearch": "2.0.x-dev",
@@ -306,7 +306,7 @@
             },
             "type": "silverstripe-module",
             "description": "CWP Basic Recipe metapackage",
-            "time": "2015-08-25 01:43:51"
+            "time": "2015-08-26 05:29:27"
         },
         {
             "name": "cwp/cwp-recipe-blog",
@@ -314,22 +314,22 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-blog.git",
-                "reference": "2368fd3467be6f799c10db9d01238e675b4996d2"
+                "reference": "bfaac5e89495f3f4ca6e1b8c56b7b58af9a39892"
             },
             "require": {
                 "colymba/gridfield-bulk-editing-tools": "2.1.2",
                 "silverstripe/akismet": "3.2.1",
-                "silverstripe/blog": "2.0.x-dev",
-                "silverstripe/comment-notifications": "1.0.x-dev",
-                "silverstripe/comments": "2.0.x-dev",
-                "silverstripe/content-widget": "dev-master",
+                "silverstripe/blog": "2.0.5",
+                "silverstripe/comment-notifications": "1.0.0",
+                "silverstripe/comments": "2.0.1",
+                "silverstripe/content-widget": "1.0.2",
                 "silverstripe/lumberjack": "1.1.x-dev",
                 "silverstripe/spamprotection": "2.0.x-dev",
                 "silverstripe/widgets": "1.1.x-dev"
             },
             "type": "silverstripe-module",
             "description": "CWP Blog Recipe metapackage",
-            "time": "2015-08-25 01:43:32"
+            "time": "2015-08-26 05:29:53"
         },
         {
             "name": "jeremeamia/SuperClosure",
@@ -757,7 +757,7 @@
         },
         {
             "name": "silverstripe/blog",
-            "version": "dev-master",
+            "version": "2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
@@ -857,16 +857,16 @@
         },
         {
             "name": "silverstripe/comment-notifications",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-labs/comment-notifications.git",
-                "reference": "8f3129f5656d017fdc5769dc04d0a1465772feea"
+                "reference": "c29104c4d99408c9104525177584e2f170de99d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/comment-notifications/zipball/8f3129f5656d017fdc5769dc04d0a1465772feea",
-                "reference": "8f3129f5656d017fdc5769dc04d0a1465772feea",
+                "url": "https://api.github.com/repos/silverstripe-labs/comment-notifications/zipball/c29104c4d99408c9104525177584e2f170de99d6",
+                "reference": "c29104c4d99408c9104525177584e2f170de99d6",
                 "shasum": ""
             },
             "require": {
@@ -892,11 +892,11 @@
                 }
             ],
             "description": "Provides email notifications for visitor comments",
-            "time": "2015-07-20 20:38:38"
+            "time": "2015-04-13 06:37:04"
         },
         {
             "name": "silverstripe/comments",
-            "version": "dev-master",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-comments.git",
@@ -941,7 +941,7 @@
         },
         {
             "name": "silverstripe/content-widget",
-            "version": "dev-master",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-labs/silverstripe-content-widget.git",
@@ -984,7 +984,7 @@
         },
         {
             "name": "silverstripe/documentconverter",
-            "version": "dev-master",
+            "version": "1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/silverstripe/documentconverter.git",
@@ -1000,7 +1000,7 @@
         },
         {
             "name": "silverstripe/environmentcheck",
-            "version": "dev-master",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-labs/silverstripe-environmentcheck.git",
@@ -1204,16 +1204,16 @@
         },
         {
             "name": "silverstripe/hybridsessions",
-            "version": "dev-master",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-labs/silverstripe-hybridsessions.git",
-                "reference": "44c7e5e7dc93592ed54d2eb59a8cc8bb8bd1e210"
+                "reference": "62bbde43f95f17ec829d00bcf6d9a80ebddd6d6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-hybridsessions/zipball/44c7e5e7dc93592ed54d2eb59a8cc8bb8bd1e210",
-                "reference": "44c7e5e7dc93592ed54d2eb59a8cc8bb8bd1e210",
+                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-hybridsessions/zipball/62bbde43f95f17ec829d00bcf6d9a80ebddd6d6c",
+                "reference": "62bbde43f95f17ec829d00bcf6d9a80ebddd6d6c",
                 "shasum": ""
             },
             "require": {
@@ -1236,7 +1236,7 @@
                 }
             ],
             "description": "Cookie/DB session support for SilverStripe",
-            "time": "2015-07-20 20:42:21"
+            "time": "2015-05-26 05:52:49"
         },
         {
             "name": "silverstripe/iframe",
@@ -2205,7 +2205,7 @@
     "packages-dev": [
         {
             "name": "cwp/cwp-recipe-basic-dev",
-            "version": "dev-master",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-basic-dev.git",
@@ -2723,7 +2723,7 @@
         "cwp/cwp-recipe-basic": 20,
         "cwp/cwp-recipe-blog": 20,
         "cwp-themes/default": 20,
-        "cwp/cwp-recipe-basic-dev": 20
+        "cwp/cwp-recipe-basic-dev": 0
     },
     "prefer-stable": false,
     "prefer-lowest": false,

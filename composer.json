@@ -7,7 +7,7 @@
 		"cwp-themes/default": "dev-master"
 	},
 	"require-dev": {
-		"cwp/cwp-recipe-basic-dev": "dev-master"
+		"cwp/cwp-recipe-basic-dev": "~1.0.7@stable"
 	},
 	"suggest": {
 		"silverstripe/textextraction": "Required for document text searching within CWP"
