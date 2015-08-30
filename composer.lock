@@ -213,7 +213,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp-themes/default.git",
-                "reference": "db760079071eafddd4e4a5095a48de2939ac594f"
+                "reference": "2659d6bc45de6a5ecfe7d07e91edc49055e9b2c9"
             },
             "require": {
                 "composer/installers": "*",
@@ -229,7 +229,7 @@
                 }
             },
             "description": "CWP Default Theme",
-            "time": "2015-08-26 04:27:12"
+            "time": "2015-08-30 21:16:16"
         },
         {
             "name": "cwp/cwp",
@@ -237,7 +237,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp.git",
-                "reference": "548d145b0fc9bb72da89a1728eee0d05ffb8d17f"
+                "reference": "350ba11a4d7ccb8ea18ae942306f6ac7981d2e59"
             },
             "require": {
                 "cwp/cwp-core": "*",
@@ -245,7 +245,7 @@
             },
             "type": "silverstripe-module",
             "description": "CWP features module. We strongly recommend using it for all new sites. Future features will be delivered here.",
-            "time": "2015-08-26 04:22:55"
+            "time": "2015-08-28 04:08:13"
         },
         {
             "name": "cwp/cwp-core",
@@ -381,16 +381,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "dev-master",
+            "version": "1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "d4af96813fccd80f3fc8e6bf95beab31d950d4b3"
+                "reference": "877ae631713cc961952df713ae785735b90df682"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/d4af96813fccd80f3fc8e6bf95beab31d950d4b3",
-                "reference": "d4af96813fccd80f3fc8e6bf95beab31d950d4b3",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/877ae631713cc961952df713ae785735b90df682",
+                "reference": "877ae631713cc961952df713ae785735b90df682",
                 "shasum": ""
             },
             "require": {
@@ -453,7 +453,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-08-27 20:21:13"
+            "time": "2015-08-30 11:40:25"
         },
         {
             "name": "nikic/php-parser",
@@ -1966,12 +1966,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "5288c4d441aea51d9a8bf46c370eabca0893dcfe"
+                "reference": "abd64a39ea0d940fab2c5c8d27313e08c2fd8747"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/5288c4d441aea51d9a8bf46c370eabca0893dcfe",
-                "reference": "5288c4d441aea51d9a8bf46c370eabca0893dcfe",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/abd64a39ea0d940fab2c5c8d27313e08c2fd8747",
+                "reference": "abd64a39ea0d940fab2c5c8d27313e08c2fd8747",
                 "shasum": ""
             },
             "require": {
@@ -1981,7 +1981,8 @@
                 "silverstripe/segment-field": "^1.0"
             },
             "suggest": {
-                "colymba/gridfield-bulk-editing-tools": "Allows for bulk management of form submissions"
+                "colymba/gridfield-bulk-editing-tools": "Allows for bulk management of form submissions",
+                "silverstripe/secureassets": "Enables files uploaded via userforms to be secured from public access"
             },
             "type": "silverstripe-module",
             "extra": {
@@ -2004,7 +2005,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2015-08-27 06:52:27"
+            "time": "2015-08-30 21:06:13"
         },
         {
             "name": "silverstripe/versionedfiles",
