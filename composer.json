@@ -2,9 +2,9 @@
 	"name": "cwp/cwp-installer",
 	"description": "CWP Project Template",
 	"require": {
-		"cwp/cwp-recipe-basic": "1.1.1.x-dev",
-		"cwp/cwp-recipe-blog": "1.1.1.x-dev",
-		"cwp-themes/default": "dev-master"
+		"cwp/cwp-recipe-basic": "~1.1.1@stable",
+		"cwp/cwp-recipe-blog": "~1.1.1@stable",
+		"cwp-themes/default": "~1.1.2@stable"
 	},
 	"require-dev": {
 		"cwp/cwp-recipe-basic-dev": "~1.0.7@stable"
