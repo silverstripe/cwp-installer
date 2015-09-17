@@ -281,17 +281,17 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-basic.git",
-                "reference": "2b4ae2f7eeacaa6ac3c3d81e0320dd95243ea1d6"
+                "reference": "bbe6ff70d56b901f3f539a91436ca59db9be5db9"
             },
             "require": {
                 "cwp/cwp": "1.1.2.x-dev",
                 "cwp/cwp-core": "1.1.2.x-dev",
                 "php": ">=5.3.2",
                 "silverstripe/advancedworkflow": "3.2.1",
-                "silverstripe/cms": "3.1.14",
+                "silverstripe/cms": "3.1.x-dev",
                 "silverstripe/documentconverter": "1.0.8",
                 "silverstripe/externallinks": "1.0.2",
-                "silverstripe/framework": "3.1.14",
+                "silverstripe/framework": "3.1.x-dev",
                 "silverstripe/fulltextsearch": "2.0.0",
                 "silverstripe/html5": "1.0.3",
                 "silverstripe/iframe": "1.0.7",
@@ -319,7 +319,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2015-09-16 02:40:14"
+            "time": "2015-09-17 04:38:43"
         },
         {
             "name": "cwp/cwp-recipe-blog",
@@ -823,7 +823,7 @@
         },
         {
             "name": "silverstripe/cms",
-            "version": "3.1.14",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
@@ -1092,16 +1092,16 @@
         },
         {
             "name": "silverstripe/framework",
-            "version": "3.1.14",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "00caeb700dc0a291087b92f0499980e5cded0f4d"
+                "reference": "8ddb4c7ffe52502ce951b7e00ad8e1d7447ae21e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/00caeb700dc0a291087b92f0499980e5cded0f4d",
-                "reference": "00caeb700dc0a291087b92f0499980e5cded0f4d",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/8ddb4c7ffe52502ce951b7e00ad8e1d7447ae21e",
+                "reference": "8ddb4c7ffe52502ce951b7e00ad8e1d7447ae21e",
                 "shasum": ""
             },
             "require": {
@@ -1137,7 +1137,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2015-09-14 22:58:15"
+            "time": "2015-09-14 23:07:14"
         },
         {
             "name": "silverstripe/fulltextsearch",
