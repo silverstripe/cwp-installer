@@ -281,7 +281,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-basic.git",
-                "reference": "bbe6ff70d56b901f3f539a91436ca59db9be5db9"
+                "reference": "8c3b3606996edfcc3c60806ebfd97aefb7e1121c"
             },
             "require": {
                 "cwp/cwp": "1.1.2.x-dev",
@@ -308,7 +308,7 @@
                 "silverstripe/subsites": "1.0.8",
                 "silverstripe/taxonomy": "1.1.0",
                 "silverstripe/translatable": "2.0.9",
-                "silverstripe/userforms": "3.0.0",
+                "silverstripe/userforms": "3.0.x-dev",
                 "silverstripe/versionedfiles": "1.0.6",
                 "silverstripe/versionfeed": "1.1.1",
                 "undefinedoffset/sortablegridfield": "0.4.4"
@@ -319,7 +319,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2015-09-17 04:38:43"
+            "time": "2015-09-17 23:58:50"
         },
         {
             "name": "cwp/cwp-recipe-blog",
@@ -606,16 +606,16 @@
         },
         {
             "name": "silverstripe-australia/gridfieldextensions",
-            "version": "1.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-australia/silverstripe-gridfieldextensions.git",
-                "reference": "302f7c0dc1ca929d7aa001453eaa16491afd4d5b"
+                "reference": "381c6044ee1dd358df6c5b4f67757b8420288d07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-australia/silverstripe-gridfieldextensions/zipball/302f7c0dc1ca929d7aa001453eaa16491afd4d5b",
-                "reference": "302f7c0dc1ca929d7aa001453eaa16491afd4d5b",
+                "url": "https://api.github.com/repos/silverstripe-australia/silverstripe-gridfieldextensions/zipball/381c6044ee1dd358df6c5b4f67757b8420288d07",
+                "reference": "381c6044ee1dd358df6c5b4f67757b8420288d07",
                 "shasum": ""
             },
             "require": {
@@ -627,6 +627,9 @@
             "type": "silverstripe-module",
             "extra": {
                 "installer-name": "gridfieldextensions",
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                },
                 "screenshots": [
                     "docs/en/_images/editable-rows.png",
                     "docs/en/_images/add-existing-search.png"
@@ -647,12 +650,12 @@
                 }
             ],
             "description": "A collection of useful grid field components",
-            "homepage": "http://github.com/ajshort/silverstripe-gridfieldextensions",
+            "homepage": "http://github.com/silverstripe-australia/silverstripe-gridfieldextensions",
             "keywords": [
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2015-03-04 01:28:24"
+            "time": "2015-09-15 00:09:13"
         },
         {
             "name": "silverstripe-themes/module_bootstrap",
@@ -1975,22 +1978,22 @@
         },
         {
             "name": "silverstripe/userforms",
-            "version": "3.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "fc49f6b98043aa1108720b2d367c1d6128e95b10"
+                "reference": "4332512fd18949d8cd65b4058fd73e9e8e2a4702"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/fc49f6b98043aa1108720b2d367c1d6128e95b10",
-                "reference": "fc49f6b98043aa1108720b2d367c1d6128e95b10",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/4332512fd18949d8cd65b4058fd73e9e8e2a4702",
+                "reference": "4332512fd18949d8cd65b4058fd73e9e8e2a4702",
                 "shasum": ""
             },
             "require": {
-                "silverstripe-australia/gridfieldextensions": "1.1.0",
-                "silverstripe/cms": ">=3.1.0",
-                "silverstripe/framework": ">=3.1.0",
+                "silverstripe-australia/gridfieldextensions": "~1.1",
+                "silverstripe/cms": "~3.1",
+                "silverstripe/framework": "~3.1",
                 "silverstripe/segment-field": "^1.0"
             },
             "suggest": {
@@ -2009,8 +2012,24 @@
             ],
             "authors": [
                 {
+                    "name": "David Craig",
+                    "email": "david@silverstripe.com"
+                },
+                {
+                    "name": "Damian Mooyman",
+                    "email": "damian@silverstripe.com"
+                },
+                {
                     "name": "Will Rossiter",
                     "email": "will@fullscreen.io"
+                },
+                {
+                    "name": "Christopher Pitt",
+                    "email": "chris@silverstripe.com"
+                },
+                {
+                    "name": "Scott Hutchinson",
+                    "email": "scott@silverstripe.com"
                 }
             ],
             "description": "UserForms enables CMS users to create dynamic forms via a drag and drop interface and without getting involved in any PHP code",
@@ -2018,7 +2037,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2015-08-30 23:27:57"
+            "time": "2015-09-17 23:34:32"
         },
         {
             "name": "silverstripe/versionedfiles",
