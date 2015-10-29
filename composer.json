@@ -4,7 +4,7 @@
 	"require": {
 		"cwp/cwp-recipe-basic": "dev-master",
 		"cwp/cwp-recipe-blog": "dev-master",
-		"cwp-themes/default": "dev-master",
+		"cwp-themes/default": "dev-3.2-compat",
 		"silverstripe/framework": "3.2.x-dev"
 	},
 	"require-dev": {
@@ -20,6 +20,10 @@
 		{
 			"type": "composer",
 			"url": "https://packages.cwp.govt.nz/"
+		},
+		{
+			"type": "vcs",
+			"url": "https://gitlab.cwp.govt.nz/open-sausages/cwp-default-theme.git"
 		}
 	],
 	"minimum-stability": "dev"
