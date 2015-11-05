@@ -2097,16 +2097,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-labs/silverstripe-taxonomy.git",
-                "reference": "4140f53dab7696aab53b5dcf41a79f7fb37a4204"
+                "reference": "a60856b100c473adf8d46c508d8ad0dbf4d4edb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-taxonomy/zipball/4140f53dab7696aab53b5dcf41a79f7fb37a4204",
-                "reference": "4140f53dab7696aab53b5dcf41a79f7fb37a4204",
+                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-taxonomy/zipball/a60856b100c473adf8d46c508d8ad0dbf4d4edb2",
+                "reference": "a60856b100c473adf8d46c508d8ad0dbf4d4edb2",
                 "shasum": ""
             },
             "require": {
-                "silverstripe/framework": "~3.1"
+                "silverstripe/framework": "^3.1.0"
             },
             "suggest": {
                 "silverstripe-australia/gridfieldextensions": "Allows sorting of TaxonomyTerm objects via drag-and-drop",
@@ -2128,7 +2128,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2015-11-01 21:27:36"
+            "time": "2015-11-05 04:15:17"
         },
         {
             "name": "silverstripe/translatable",
