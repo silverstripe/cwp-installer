@@ -851,8 +851,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/a40c8e034af4e145b788d7561b092fe8f09c7c58",
-                "reference": "a40c8e034af4e145b788d7561b092fe8f09c7c58",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/8fb8c1e93cd50af15029253ec21a75f52dcdd246",
+                "reference": "8fb8c1e93cd50af15029253ec21a75f52dcdd246",
                 "shasum": ""
             },
             "require": {
@@ -1439,7 +1439,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-australia/silverstripe-multivaluefield.git",
-                "reference": "df0aebae0d56f64f08bd31c774dfe68e7098b56e"
+                "reference": "4d53efb9689558208806fc77093748a03bd176da"
             },
             "dist": {
                 "type": "zip",
