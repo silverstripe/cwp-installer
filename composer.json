@@ -2,10 +2,9 @@
 	"name": "cwp/cwp-installer",
 	"description": "CWP Project Template",
 	"require": {
-		"cwp/cwp-recipe-basic": "dev-master",
+		"cwp/cwp-recipe-basic": "1.2.0.x-dev",
 		"cwp/cwp-recipe-blog": "dev-master",
-		"cwp-themes/default": "dev-3.2-compat",
-		"silverstripe/framework": "3.2.x-dev"
+		"cwp-themes/default": "dev-3.2-compat"
 	},
 	"require-dev": {
 		"cwp/cwp-recipe-basic-dev": "dev-master"
