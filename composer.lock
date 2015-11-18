@@ -410,16 +410,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.17.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24"
+                "reference": "7d20351afc85aa23c5795309c9984a1e93d81c27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/7d20351afc85aa23c5795309c9984a1e93d81c27",
+                "reference": "7d20351afc85aa23c5795309c9984a1e93d81c27",
                 "shasum": ""
             },
             "require": {
@@ -448,6 +448,7 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
@@ -457,7 +458,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.16.x-dev"
+                    "dev-master": "1.18.x-dev"
                 }
             },
             "autoload": {
@@ -483,7 +484,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-10-14 12:51:02"
+            "time": "2015-11-18 18:03:10"
         },
         {
             "name": "nikic/php-parser",
@@ -748,15 +749,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-akismet.git",
-                "reference": "ef9ed2fe5b40877a89513f56f0a6bde2764276cf"
+                "reference": "c7e90eec72473ff0621600a027a671bab60a138b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-akismet/zipball/ef9ed2fe5b40877a89513f56f0a6bde2764276cf",
-                "reference": "ef9ed2fe5b40877a89513f56f0a6bde2764276cf",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-akismet/zipball/c7e90eec72473ff0621600a027a671bab60a138b",
+                "reference": "c7e90eec72473ff0621600a027a671bab60a138b",
                 "shasum": ""
             },
             "require": {
+                "silverstripe/cms": "~3.1",
                 "silverstripe/framework": "~3.1",
                 "silverstripe/spamprotection": "~2.0",
                 "tijsverkoyen/akismet": "1.1.0"
@@ -786,7 +788,7 @@
                 "silverstripe",
                 "spam"
             ],
-            "time": "2015-11-17 03:07:37"
+            "time": "2015-11-18 04:32:05"
         },
         {
             "name": "silverstripe/blog",
@@ -1801,12 +1803,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-labs/silverstripe-sharedraftcontent.git",
-                "reference": "be1e98745fa91fa760261e3cbae51ca860fd701f"
+                "reference": "7ffcc4813fb7364fdb4fbe28192b9bb1307551a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-sharedraftcontent/zipball/be1e98745fa91fa760261e3cbae51ca860fd701f",
-                "reference": "be1e98745fa91fa760261e3cbae51ca860fd701f",
+                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-sharedraftcontent/zipball/7ffcc4813fb7364fdb4fbe28192b9bb1307551a3",
+                "reference": "7ffcc4813fb7364fdb4fbe28192b9bb1307551a3",
                 "shasum": ""
             },
             "require": {
@@ -1818,6 +1820,11 @@
                 "phpunit/phpunit": "~4.7"
             },
             "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
@@ -1840,7 +1847,7 @@
             "keywords": [
                 "silverstripe"
             ],
-            "time": "2015-11-01 21:28:14"
+            "time": "2015-11-18 12:37:10"
         },
         {
             "name": "silverstripe/siteconfig",
