@@ -265,7 +265,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-core.git",
-                "reference": "480db1663c587f262967fc9518878d5820ba6079"
+                "reference": "2895df0da498b3a3e5d12c66a91a3c13b4e0e2c3"
             },
             "require": {
                 "composer/installers": "*",
@@ -280,7 +280,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2015-09-23 03:41:22"
+            "time": "2015-11-18 01:51:49"
         },
         {
             "name": "cwp/cwp-recipe-basic",
@@ -851,8 +851,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/8fb8c1e93cd50af15029253ec21a75f52dcdd246",
-                "reference": "8fb8c1e93cd50af15029253ec21a75f52dcdd246",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/a40c8e034af4e145b788d7561b092fe8f09c7c58",
+                "reference": "a40c8e034af4e145b788d7561b092fe8f09c7c58",
                 "shasum": ""
             },
             "require": {
@@ -1023,12 +1023,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-contentreview.git",
-                "reference": "6138d0b9272a869f67704cdfe3f046264981ca8f"
+                "reference": "ddf5052503d4b61901ed227bf48df9b8f61acc78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-contentreview/zipball/6138d0b9272a869f67704cdfe3f046264981ca8f",
-                "reference": "6138d0b9272a869f67704cdfe3f046264981ca8f",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-contentreview/zipball/ddf5052503d4b61901ed227bf48df9b8f61acc78",
+                "reference": "ddf5052503d4b61901ed227bf48df9b8f61acc78",
                 "shasum": ""
             },
             "require": {
@@ -1058,7 +1058,7 @@
                 "silverstripe",
                 "workflow"
             ],
-            "time": "2015-11-18 00:25:04"
+            "time": "2015-11-18 02:22:13"
         },
         {
             "name": "silverstripe/documentconverter",
@@ -1439,7 +1439,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-australia/silverstripe-multivaluefield.git",
-                "reference": "4d53efb9689558208806fc77093748a03bd176da"
+                "reference": "df0aebae0d56f64f08bd31c774dfe68e7098b56e"
             },
             "dist": {
                 "type": "zip",
