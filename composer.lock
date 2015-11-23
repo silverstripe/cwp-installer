@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5fdc4d5f4047e826ba49b6e3bfd6fb64",
-    "content-hash": "71e6d81d25879009b767eab74d5ab495",
+    "hash": "4aa9dba19f152c7ab36119fb19756e0c",
+    "content-hash": "c1ba99db1c80544941ee5d3d7df9521b",
     "packages": [
         {
             "name": "assertchris/hash-compat",
@@ -213,11 +213,11 @@
         },
         {
             "name": "cwp-themes/default",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp-themes/default.git",
-                "reference": "376d77177143fa63ed9ca32d2c33786ca1cafa34"
+                "reference": "494b81230e062354b966fb0b8f794bb44a3ec811"
             },
             "require": {
                 "composer/installers": "*",
@@ -237,7 +237,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2015-10-29 03:12:29"
+            "time": "2015-11-23 02:40:44"
         },
         {
             "name": "cwp/cwp",
@@ -339,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-blog.git",
-                "reference": "8215e8531738d314da5913f9061b96e1aeb2b891"
+                "reference": "02471fd2370736ccb28000e047b9cbd4719fe0be"
             },
             "require": {
                 "colymba/gridfield-bulk-editing-tools": "~2.1.2",
                 "silverstripe/akismet": "3.2.2",
-                "silverstripe/blog": "2.2.0",
+                "silverstripe/blog": "2.3.0",
                 "silverstripe/comment-notifications": "1.0.0",
                 "silverstripe/comments": "2.0.2",
                 "silverstripe/content-widget": "1.0.2",
@@ -358,7 +358,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2015-11-20 00:33:08"
+            "time": "2015-11-23 03:10:55"
         },
         {
             "name": "jeremeamia/SuperClosure",
@@ -797,16 +797,16 @@
         },
         {
             "name": "silverstripe/blog",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "8a877debf2d16bb2f9da16ed8e3163abeab68b9d"
+                "reference": "be1a502823ab127dde74b63fe9584ff552435523"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/8a877debf2d16bb2f9da16ed8e3163abeab68b9d",
-                "reference": "8a877debf2d16bb2f9da16ed8e3163abeab68b9d",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/be1a502823ab127dde74b63fe9584ff552435523",
+                "reference": "be1a502823ab127dde74b63fe9584ff552435523",
                 "shasum": ""
             },
             "require": {
@@ -846,7 +846,7 @@
                 "news",
                 "silverstripe"
             ],
-            "time": "2015-11-20 00:22:03"
+            "time": "2015-11-23 03:08:22"
         },
         {
             "name": "silverstripe/cms",
