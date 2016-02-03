@@ -1,6 +1,9 @@
 de:
-  HomePage:
-    PLURALNAME: 'Grundseiten'
+  CommentsInterface_singlecomment_ss:
+    APPROVE: Bestätigen
+    ISNTSPAM: 'Kein Spam'
+    ISSPAM: Spam
+    REMCOM: Löschen
   Page:
     DESCRIPTION: 'Allgemeine Inhaltsseite'
     PLURALNAME: 'Grundseiten'
@@ -8,8 +11,3 @@ de:
   SiteTree:
     PLURALNAME: Seiten
     SINGULARNAME: Seite
-  CommentsInterface_singlecomment_ss:
-    APPROVE: 'Bestätigen'
-    ISNTSPAM: 'Kein Spam'
-    ISSPAM: 'Spam'
-    REMCOM: 'Löschen'
