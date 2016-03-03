@@ -288,7 +288,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-basic.git",
-                "reference": "22b48f25deaab60739925999dccd4c5bf551b2ea"
+                "reference": "3b35a18b1d98c3bc86c9c75f7a70add0646a7716"
             },
             "require": {
                 "cwp/cwp": "1.2.0",
@@ -319,7 +319,7 @@
                 "silverstripe/spellcheck": "1.0.4",
                 "silverstripe/subsites": "1.2.0",
                 "silverstripe/taxonomy": "1.1.1",
-                "silverstripe/translatable": "2.1.0",
+                "silverstripe/translatable": "2.1.1",
                 "silverstripe/userforms": "3.1.0",
                 "silverstripe/versionedfiles": "1.0.7",
                 "silverstripe/versionfeed": "1.2.0",
@@ -331,7 +331,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2016-03-02 21:49:56"
+            "time": "2016-03-03 02:17:52"
         },
         {
             "name": "cwp/cwp-recipe-blog",
@@ -2197,16 +2197,16 @@
         },
         {
             "name": "silverstripe/translatable",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-translatable.git",
-                "reference": "feced03df2dd766528abddc2ab0c7ffe1ecf7964"
+                "reference": "3e87a27ed4185d9f976a197f90bde838c46cde3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-translatable/zipball/feced03df2dd766528abddc2ab0c7ffe1ecf7964",
-                "reference": "feced03df2dd766528abddc2ab0c7ffe1ecf7964",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-translatable/zipball/3e87a27ed4185d9f976a197f90bde838c46cde3e",
+                "reference": "3e87a27ed4185d9f976a197f90bde838c46cde3e",
                 "shasum": ""
             },
             "require": {
@@ -2246,7 +2246,7 @@
                 "localization",
                 "silverstripe"
             ],
-            "time": "2015-11-19 20:59:13"
+            "time": "2016-02-04 04:56:03"
         },
         {
             "name": "silverstripe/userforms",
