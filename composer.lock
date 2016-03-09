@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e9ce71f76f25d9ba62f50c1c10c3d87f",
-    "content-hash": "59a3ff345d3570825f241058cd15acd2",
+    "hash": "3441852eea7fa34fa15dfb5785dc13a8",
+    "content-hash": "74d29944b05b57825ceed437fa1ffa9f",
     "packages": [
         {
             "name": "assertchris/hash-compat",
@@ -284,7 +284,7 @@
         },
         {
             "name": "cwp/cwp-recipe-basic",
-            "version": "1.2.1.x-dev",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-basic.git",
@@ -414,12 +414,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "e19b764b5c855580e8ffa7e615f72c10fd2f99cc"
+                "reference": "5085630fd606c50d9b09efa0f93c0bdd83603d24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/e19b764b5c855580e8ffa7e615f72c10fd2f99cc",
-                "reference": "e19b764b5c855580e8ffa7e615f72c10fd2f99cc",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5085630fd606c50d9b09efa0f93c0bdd83603d24",
+                "reference": "5085630fd606c50d9b09efa0f93c0bdd83603d24",
                 "shasum": ""
             },
             "require": {
@@ -484,7 +484,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-03-01 18:00:40"
+            "time": "2016-03-07 12:29:57"
         },
         {
             "name": "nikic/php-parser",
@@ -3034,7 +3034,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "cwp/cwp-recipe-basic": 20,
+        "cwp/cwp-recipe-basic": 0,
         "cwp/cwp-recipe-blog": 0,
         "cwp-themes/default": 0,
         "cwp/cwp-recipe-basic-dev": 20
