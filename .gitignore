@@ -34,11 +34,13 @@ _ss_environment.php
 /nginx
 /queuedjobs
 /registry
+/reports
 /restfulserver
 /securityreport
 /secureassets
 /segment-field
 /selectupload
+/siteconfig
 /sortablegridfield
 /spellcheck
 /subsites
