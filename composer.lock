@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "35d547c47a767dc1b1347c0de9d02fac",
-    "content-hash": "d243fe3e1193011f33058b7319d465de",
+    "hash": "746f6e9dcdf5f61840a97c9ae92db82f",
+    "content-hash": "ca4792771846dc32d4afd50f973e48ef",
     "packages": [
         {
             "name": "assertchris/hash-compat",
@@ -45,16 +45,16 @@
         },
         {
             "name": "asyncphp/doorman",
-            "version": "1.x-dev",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asyncphp/doorman.git",
-                "reference": "ada79add074d69fa70561c2ac0f7ded0c817e770"
+                "reference": "0da7eabebeae503fc05e90acaed021c692fceb57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asyncphp/doorman/zipball/ada79add074d69fa70561c2ac0f7ded0c817e770",
-                "reference": "ada79add074d69fa70561c2ac0f7ded0c817e770",
+                "url": "https://api.github.com/repos/asyncphp/doorman/zipball/0da7eabebeae503fc05e90acaed021c692fceb57",
+                "reference": "0da7eabebeae503fc05e90acaed021c692fceb57",
                 "shasum": ""
             },
             "require": {
@@ -76,7 +76,7 @@
                 "MIT"
             ],
             "description": "Child process management",
-            "time": "2015-09-04 02:46:41"
+            "time": "2015-07-28 00:39:41"
         },
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -122,16 +122,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "dev-master",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "d78064c68299743e0161004f2de3a0204e33b804"
+                "reference": "a3595c5272a6f247228abb20076ed27321e4aae9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/d78064c68299743e0161004f2de3a0204e33b804",
-                "reference": "d78064c68299743e0161004f2de3a0204e33b804",
+                "url": "https://api.github.com/repos/composer/installers/zipball/a3595c5272a6f247228abb20076ed27321e4aae9",
+                "reference": "a3595c5272a6f247228abb20076ed27321e4aae9",
                 "shasum": ""
             },
             "require": {
@@ -178,7 +178,6 @@
                 "MODX Evo",
                 "Mautic",
                 "OXID",
-                "Plentymarkets",
                 "RadPHP",
                 "SMF",
                 "Thelia",
@@ -186,11 +185,9 @@
                 "agl",
                 "aimeos",
                 "annotatecms",
-                "attogram",
                 "bitrix",
                 "cakephp",
                 "chef",
-                "cockpit",
                 "codeigniter",
                 "concrete5",
                 "croogo",
@@ -214,18 +211,16 @@
                 "piwik",
                 "ppi",
                 "puppet",
-                "reindex",
                 "roundcube",
                 "shopware",
                 "silverstripe",
                 "symfony",
                 "typo3",
                 "wordpress",
-                "yawik",
                 "zend",
                 "zikula"
             ],
-            "time": "2016-08-13 20:53:52"
+            "time": "2016-07-05 06:18:20"
         },
         {
             "name": "cwp-themes/default",
@@ -304,13 +299,13 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-basic.git",
-                "reference": "083c73c781985e873661531a4bde5b631af5bb59"
+                "reference": "5be15d3bd44304296e70490583c774e9b1fd406e"
             },
             "require": {
                 "cwp/cwp": "dev-master",
                 "cwp/cwp-core": "dev-master",
                 "php": ">=5.3.2",
-                "silverstripe-australia/gridfieldextensions": "~1.3.0",
+                "silverstripe-australia/gridfieldextensions": "~1.4.2@stable",
                 "silverstripe/advancedworkflow": "3.6.1",
                 "silverstripe/cms": "3.4.1",
                 "silverstripe/contentreview": "3.0.2",
@@ -326,7 +321,7 @@
                 "silverstripe/registry": "1.0.11",
                 "silverstripe/reports": "3.4.1",
                 "silverstripe/restfulserver": "1.0.5",
-                "silverstripe/secureassets": "1.1.1",
+                "silverstripe/secureassets": "1.1.2",
                 "silverstripe/securityreport": "1.0.6",
                 "silverstripe/selectupload": "1.0.5",
                 "silverstripe/sharedraftcontent": "1.1.1",
@@ -347,7 +342,7 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2016-08-18 06:28:43"
+            "time": "2016-08-21 22:22:37"
         },
         {
             "name": "cwp/cwp-recipe-blog",
@@ -355,10 +350,10 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-blog.git",
-                "reference": "8e732d6d60c633f246020b92c47b953d8287ba4d"
+                "reference": "207f0e3face547ae3f2feb4811fb6e9c801b0386"
             },
             "require": {
-                "colymba/gridfield-bulk-editing-tools": "~2.1.6",
+                "colymba/gridfield-bulk-editing-tools": "~2.1.6@stable",
                 "silverstripe/akismet": "3.2.4",
                 "silverstripe/blog": "2.4.3",
                 "silverstripe/comment-notifications": "1.0.1",
@@ -374,11 +369,11 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2016-08-18 06:34:59"
+            "time": "2016-08-21 22:22:23"
         },
         {
             "name": "jeremeamia/SuperClosure",
-            "version": "1.0.x-dev",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeremeamia/super_closure.git",
@@ -426,7 +421,7 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.x-dev",
+            "version": "1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
@@ -504,7 +499,7 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "0.9.x-dev",
+            "version": "v0.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
@@ -549,30 +544,22 @@
         },
         {
             "name": "psr/log",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "d8e60a5619fff77f9669da8997697443ef1a1d7e"
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/d8e60a5619fff77f9669da8997697443ef1a1d7e",
-                "reference": "d8e60a5619fff77f9669da8997697443ef1a1d7e",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=5.3.0"
-            },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
             "autoload": {
-                "psr-4": {
-                    "Psr\\Log\\": "Psr/Log/"
+                "psr-0": {
+                    "Psr\\Log\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -586,13 +573,12 @@
                 }
             ],
             "description": "Common interface for logging libraries",
-            "homepage": "https://github.com/php-fig/log",
             "keywords": [
                 "log",
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-01-06 21:40:42"
+            "time": "2012-12-21 11:40:51"
         },
         {
             "name": "ramsey/array_column",
@@ -641,16 +627,16 @@
         },
         {
             "name": "silverstripe-australia/gridfieldextensions",
-            "version": "1.3.0",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-australia/silverstripe-gridfieldextensions.git",
-                "reference": "ef57799a6898f4eeb1fe3ee2ab1eb2e0f58e5f9f"
+                "reference": "a4d15e4ca428b3a8c96e085a7caaeb25c1f737fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-australia/silverstripe-gridfieldextensions/zipball/ef57799a6898f4eeb1fe3ee2ab1eb2e0f58e5f9f",
-                "reference": "ef57799a6898f4eeb1fe3ee2ab1eb2e0f58e5f9f",
+                "url": "https://api.github.com/repos/silverstripe-australia/silverstripe-gridfieldextensions/zipball/a4d15e4ca428b3a8c96e085a7caaeb25c1f737fe",
+                "reference": "a4d15e4ca428b3a8c96e085a7caaeb25c1f737fe",
                 "shasum": ""
             },
             "require": {
@@ -663,7 +649,7 @@
             "extra": {
                 "installer-name": "gridfieldextensions",
                 "branch-alias": {
-                    "dev-master": "1.2.x-dev"
+                    "dev-master": "1.4.x-dev"
                 },
                 "screenshots": [
                     "docs/en/_images/editable-rows.png",
@@ -690,7 +676,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2015-11-17 15:02:18"
+            "time": "2016-08-19 08:28:30"
         },
         {
             "name": "silverstripe-themes/module_bootstrap",
@@ -1173,12 +1159,12 @@
             "version": "1.0.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe-labs/silverstripe-externallinks.git",
+                "url": "https://github.com/silverstripe/silverstripe-externallinks.git",
                 "reference": "738ca1733e379b385b2a3bc81127579f0fe13886"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-externallinks/zipball/738ca1733e379b385b2a3bc81127579f0fe13886",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-externallinks/zipball/738ca1733e379b385b2a3bc81127579f0fe13886",
                 "reference": "738ca1733e379b385b2a3bc81127579f0fe13886",
                 "shasum": ""
             },
@@ -1272,12 +1258,12 @@
             "version": "2.2.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe-labs/silverstripe-fulltextsearch.git",
+                "url": "https://github.com/silverstripe/silverstripe-fulltextsearch.git",
                 "reference": "372bde90e75ac38336cd21fff5fa8afefc369afc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-fulltextsearch/zipball/372bde90e75ac38336cd21fff5fa8afefc369afc",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-fulltextsearch/zipball/372bde90e75ac38336cd21fff5fa8afefc369afc",
                 "reference": "372bde90e75ac38336cd21fff5fa8afefc369afc",
                 "shasum": ""
             },
@@ -1359,7 +1345,7 @@
         },
         {
             "name": "silverstripe/hybridsessions",
-            "version": "dev-master",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-labs/silverstripe-hybridsessions.git",
@@ -1408,12 +1394,12 @@
             "version": "1.0.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe-labs/silverstripe-iframe.git",
+                "url": "https://github.com/silverstripe/silverstripe-iframe.git",
                 "reference": "e71062aec58d42e5b1c506b409ca4720a03030dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-iframe/zipball/e71062aec58d42e5b1c506b409ca4720a03030dc",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-iframe/zipball/e71062aec58d42e5b1c506b409ca4720a03030dc",
                 "reference": "e71062aec58d42e5b1c506b409ca4720a03030dc",
                 "shasum": ""
             },
@@ -1610,12 +1596,12 @@
             "version": "1.0.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe-labs/silverstripe-registry.git",
+                "url": "https://github.com/silverstripe/silverstripe-registry.git",
                 "reference": "360aaf780156d66da0bbd5978281618c5ab4944b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-registry/zipball/360aaf780156d66da0bbd5978281618c5ab4944b",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-registry/zipball/360aaf780156d66da0bbd5978281618c5ab4944b",
                 "reference": "360aaf780156d66da0bbd5978281618c5ab4944b",
                 "shasum": ""
             },
@@ -1655,12 +1641,12 @@
             "version": "3.4.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe-labs/silverstripe-reports.git",
+                "url": "https://github.com/silverstripe/silverstripe-reports.git",
                 "reference": "c1525c8ba68f6d4fc0fb5f30929f9678c0199411"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-reports/zipball/c1525c8ba68f6d4fc0fb5f30929f9678c0199411",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-reports/zipball/c1525c8ba68f6d4fc0fb5f30929f9678c0199411",
                 "reference": "c1525c8ba68f6d4fc0fb5f30929f9678c0199411",
                 "shasum": ""
             },
@@ -1742,16 +1728,16 @@
         },
         {
             "name": "silverstripe/secureassets",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe-labs/silverstripe-secureassets.git",
-                "reference": "a0c77c87cc553c7beca2e5f90a086299254c0cc3"
+                "url": "https://github.com/silverstripe/silverstripe-secureassets.git",
+                "reference": "42d0e81bf934812d9f8211d69b3086a1e5e6cefe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-secureassets/zipball/a0c77c87cc553c7beca2e5f90a086299254c0cc3",
-                "reference": "a0c77c87cc553c7beca2e5f90a086299254c0cc3",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-secureassets/zipball/42d0e81bf934812d9f8211d69b3086a1e5e6cefe",
+                "reference": "42d0e81bf934812d9f8211d69b3086a1e5e6cefe",
                 "shasum": ""
             },
             "require": {
@@ -1784,19 +1770,19 @@
                 "secure",
                 "silverstripe"
             ],
-            "time": "2016-08-16 23:08:00"
+            "time": "2016-08-18 20:48:21"
         },
         {
             "name": "silverstripe/securityreport",
             "version": "1.0.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe-labs/silverstripe-securityreport.git",
+                "url": "https://github.com/silverstripe/silverstripe-securityreport.git",
                 "reference": "d8d672cd35b26a7adef76d17fd74ad57c88071a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-securityreport/zipball/d8d672cd35b26a7adef76d17fd74ad57c88071a8",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-securityreport/zipball/d8d672cd35b26a7adef76d17fd74ad57c88071a8",
                 "reference": "d8d672cd35b26a7adef76d17fd74ad57c88071a8",
                 "shasum": ""
             },
@@ -1872,12 +1858,12 @@
             "version": "1.0.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe-labs/silverstripe-selectupload.git",
+                "url": "https://github.com/silverstripe/silverstripe-selectupload.git",
                 "reference": "b39216087dd58f6d900d02f0eef915a4c5385524"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-selectupload/zipball/b39216087dd58f6d900d02f0eef915a4c5385524",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-selectupload/zipball/b39216087dd58f6d900d02f0eef915a4c5385524",
                 "reference": "b39216087dd58f6d900d02f0eef915a4c5385524",
                 "shasum": ""
             },
@@ -2186,15 +2172,15 @@
         },
         {
             "name": "silverstripe/tagfield",
-            "version": "dev-master",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe-labs/silverstripe-tagfield.git",
+                "url": "https://github.com/silverstripe/silverstripe-tagfield.git",
                 "reference": "35773d4a5629569170034f4425f4a6884ef18a56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-tagfield/zipball/35773d4a5629569170034f4425f4a6884ef18a56",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-tagfield/zipball/35773d4a5629569170034f4425f4a6884ef18a56",
                 "reference": "35773d4a5629569170034f4425f4a6884ef18a56",
                 "shasum": ""
             },
@@ -2621,7 +2607,7 @@
         },
         {
             "name": "hafriedlander/phockito",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hafriedlander/phockito.git",
@@ -2660,16 +2646,16 @@
         },
         {
             "name": "hafriedlander/silverstripe-phockito",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hafriedlander/silverstripe-phockito.git",
-                "reference": "02dbffd43c9d0ab5cced6a33cb99b07c496acb69"
+                "reference": "d1248f254d97a393d0797b4dc5e40a59d094c242"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hafriedlander/silverstripe-phockito/zipball/02dbffd43c9d0ab5cced6a33cb99b07c496acb69",
-                "reference": "02dbffd43c9d0ab5cced6a33cb99b07c496acb69",
+                "url": "https://api.github.com/repos/hafriedlander/silverstripe-phockito/zipball/d1248f254d97a393d0797b4dc5e40a59d094c242",
+                "reference": "d1248f254d97a393d0797b4dc5e40a59d094c242",
                 "shasum": ""
             },
             "require": {
@@ -2684,7 +2670,8 @@
             "authors": [
                 {
                     "name": "Hamish Friedlander",
-                    "email": "hamish@silverstripe.com"
+                    "email": "hamish@silverstripe.com",
+                    "role": "Developer"
                 }
             ],
             "description": "Integrate Phockito (a PHP Mocking framework) with SilverStripe",
@@ -2693,11 +2680,11 @@
                 "mocks",
                 "testing"
             ],
-            "time": "2015-06-04 22:47:08"
+            "time": "2013-10-24 21:27:32"
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "1.2.x-dev",
+            "version": "1.2.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
@@ -2758,7 +2745,7 @@
         },
         {
             "name": "phpunit/php-file-iterator",
-            "version": "dev-master",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
@@ -2940,7 +2927,7 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "3.7.x-dev",
+            "version": "3.7.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
@@ -3013,34 +3000,26 @@
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "1.2.x-dev",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "c39c4511c3b007539eb170c32cbc2af49a07351a"
+                "reference": "5794e3c5c5ba0fb037b11d8151add2a07fa82875"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/c39c4511c3b007539eb170c32cbc2af49a07351a",
-                "reference": "c39c4511c3b007539eb170c32cbc2af49a07351a",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/5794e3c5c5ba0fb037b11d8151add2a07fa82875",
+                "reference": "5794e3c5c5ba0fb037b11d8151add2a07fa82875",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
                 "phpunit/php-text-template": ">=1.1.1@stable"
             },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*@dev"
-            },
             "suggest": {
                 "ext-soap": "*"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "classmap": [
                     "PHPUnit/"
@@ -3066,20 +3045,20 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2014-02-16 12:43:56"
+            "time": "2013-01-13 10:24:48"
         },
         {
             "name": "symfony/yaml",
-            "version": "2.6.x-dev",
+            "version": "v2.6.13",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Yaml.git",
+                "url": "https://github.com/symfony/yaml.git",
                 "reference": "c044d1744b8e91aaaa0d9bac683ab87ec7cbf359"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/c044d1744b8e91aaaa0d9bac683ab87ec7cbf359",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/c044d1744b8e91aaaa0d9bac683ab87ec7cbf359",
                 "reference": "c044d1744b8e91aaaa0d9bac683ab87ec7cbf359",
                 "shasum": ""
             },
@@ -3127,7 +3106,7 @@
         "cwp-themes/default": 20,
         "cwp/cwp-recipe-basic-dev": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
