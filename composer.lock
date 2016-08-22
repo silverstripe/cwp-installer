@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "746f6e9dcdf5f61840a97c9ae92db82f",
-    "content-hash": "ca4792771846dc32d4afd50f973e48ef",
+    "hash": "0e775ab879241557b6447efafcdad883",
+    "content-hash": "443bfa40b0100d600b51e9004579281e",
     "packages": [
         {
             "name": "assertchris/hash-compat",
@@ -224,7 +224,7 @@
         },
         {
             "name": "cwp-themes/default",
-            "version": "dev-master",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp-themes/default.git",
@@ -252,11 +252,11 @@
         },
         {
             "name": "cwp/cwp",
-            "version": "dev-master",
+            "version": "1.4.1-rc1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp.git",
-                "reference": "244228f980ea7d94a7a824d064fd20923620da13"
+                "reference": "c7a4156b71ace401702b35b40d8727d0fca6f01f"
             },
             "require": {
                 "cwp/cwp-core": "*",
@@ -268,15 +268,15 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2016-08-15 06:09:05"
+            "time": "2016-08-22 01:35:36"
         },
         {
             "name": "cwp/cwp-core",
-            "version": "dev-master",
+            "version": "1.4.1-rc1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-core.git",
-                "reference": "21b76134bbedad031657e89d9d9a29a891221cf2"
+                "reference": "0a382c03e47abf15e285aeda7c40f6ad76473a6e"
             },
             "require": {
                 "composer/installers": "*",
@@ -295,15 +295,15 @@
         },
         {
             "name": "cwp/cwp-recipe-basic",
-            "version": "1.4.1.x-dev",
+            "version": "1.4.1-rc1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-basic.git",
-                "reference": "5be15d3bd44304296e70490583c774e9b1fd406e"
+                "reference": "ca43cd4c19b0570ef69a171c429c32e64439d47d"
             },
             "require": {
-                "cwp/cwp": "dev-master",
-                "cwp/cwp-core": "dev-master",
+                "cwp/cwp": "1.4.1-rc1",
+                "cwp/cwp-core": "1.4.1-rc1",
                 "php": ">=5.3.2",
                 "silverstripe-australia/gridfieldextensions": "~1.4.2@stable",
                 "silverstripe/advancedworkflow": "3.6.1",
@@ -342,15 +342,15 @@
                 "cwp",
                 "silverstripe"
             ],
-            "time": "2016-08-21 22:22:37"
+            "time": "2016-08-22 01:49:59"
         },
         {
             "name": "cwp/cwp-recipe-blog",
-            "version": "1.4.1.x-dev",
+            "version": "1.4.1-rc1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-blog.git",
-                "reference": "207f0e3face547ae3f2feb4811fb6e9c801b0386"
+                "reference": "b0b3b9ebc3d14dc8767d151e9e12a5b9e22461ab"
             },
             "require": {
                 "colymba/gridfield-bulk-editing-tools": "~2.1.6@stable",
@@ -2586,7 +2586,7 @@
     "packages-dev": [
         {
             "name": "cwp/cwp-recipe-basic-dev",
-            "version": "dev-master",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.cwp.govt.nz/cwp/cwp-recipe-basic-dev.git",
@@ -3101,10 +3101,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "cwp/cwp-recipe-basic": 20,
-        "cwp/cwp-recipe-blog": 20,
-        "cwp-themes/default": 20,
-        "cwp/cwp-recipe-basic-dev": 20
+        "cwp-themes/default": 0,
+        "cwp/cwp-recipe-basic-dev": 0
     },
     "prefer-stable": true,
     "prefer-lowest": false,
