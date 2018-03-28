@@ -5,21 +5,21 @@
     Usage:
      - "vendor/bin/phpunit": Runs all tests in all folders
      - "vendor/bin/phpunit vendor/silverstripe/framework/tests/": Run all tests of the framework module
-     - "vendor/bin/phpunit vendor/silverstripe/framework/tests/filesystem": Run all filesystem tests within the framework module
-     - "vendor/bin/phpunit vendor/silverstripe/framework/tests/filesystem/FolderTest.php": Run a single test
+     - "vendor/bin/phpunit vendor/silverstripe/framework/tests/php/Forms": Run all Forms tests within the framework module
+     - "vendor/bin/phpunit vendor/silverstripe/framework/tests/php/Forms/TextareaFieldTest": Run a single test suite
      - "vendor/bin/phpunit <dash><dash>coverage-html assets/": Generate coverage report (replace <dash> with "-", requires xdebug)
     More information:
     - http://www.phpunit.de/manual/current/en/textui.html
     - http://doc.silverstripe.org/framework/en/topics/testing/#configuration
     It is safe to remove this file for normal website operation.
 -->
-<phpunit bootstrap="vendor/silverstripe/framework/tests/bootstrap.php" colors="true">
+<phpunit bootstrap="vendor/silverstripe/cms/tests/bootstrap.php" colors="true">
 
     <testsuite name="Default">
         <directory>mysite/tests</directory>
         <directory>vendor/silverstripe/subsites/tests</directory>
-        <directory>vendor/silverstripe/registry/tests</directory>
         <directory>vendor/tractorcow/silverstripe-fluent/tests</directory>
+        <directory>vendor/silverstripe/registry/tests</directory>
     </testsuite>
 
     <!-- cwp core components -->
@@ -33,10 +33,46 @@
 
     <testsuite name="cwpcms">
         <directory>vendor/cwp/cwp/tests</directory>
-        <directory>vendor/silverstripe/taxonomy/tests</directory>
-        <directory>vendor/silverstripe/html5/tests</directory>
         <directory>vendor/cwp/cwp-pdfexport/tests</directory>
+        <directory>vendor/silverstripe/html5/tests</directory>
+
         <directory>vendor/symbiote/silverstripe-gridfieldextensions/tests</directory>
+    </testsuite>
+
+    <testsuite name="blog">
+        <directory>vendor/silverstripe/blog/tests</directory>
+        <directory>vendor/silverstripe/widgets/tests</directory>
+        <directory>vendor/silverstripe/content-widget/tests</directory>
+        <directory>vendor/silverstripe/spamprotection/tests</directory>
+        <directory>vendor/silverstripe/akismet/tests</directory>
+        <directory>vendor/silverstripe/comments/tests</directory>
+        <directory>vendor/silverstripe/comment-notifications/tests</directory>
+        <directory>vendor/colymba/gridfield-bulk-editing-tools/tests</directory>
+    </testsuite>
+
+    <testsuite name="formbuilding">
+        <directory>vendor/silverstripe/segment-field/tests</directory>
+        <directory>vendor/silverstripe/userforms/tests</directory>
+    </testsuite>
+
+    <testsuite name="authoring">
+        <directory>vendor/silverstripe/documentconverter/tests</directory>
+        <directory>vendor/silverstripe/iframe/tests</directory>
+        <directory>vendor/silverstripe/spellcheck/tests</directory>
+        <directory>vendor/silverstripe/tagfield/tests</directory>
+        <directory>vendor/silverstripe/taxonomy/tests</directory>
+    </testsuite>
+
+    <testsuite name="collaboration">
+        <directory>vendor/silverstripe/contentreview/tests</directory>
+        <directory>vendor/silverstripe/sharedraftcontent/tests</directory>
+        <directory>vendor/symbiote/silverstripe-advancedworkflow/tests</directory>
+    </testsuite>
+
+    <testsuite name="reporting">
+        <directory>vendor/silverstripe/externallinks/tests</directory>
+        <directory>vendor/silverstripe/securityreport/tests</directory>
+        <directory>vendor/silverstripe/sitewidecontent-report/tests</directory>
     </testsuite>
 
     <testsuite name="cwpsearch">
@@ -46,25 +82,31 @@
         <directory>vendor/silverstripe/textextraction/tests</directory>
     </testsuite>
 
-    <!-- silverstripe core components -->
+    <testsuite name="services">
+        <directory>vendor/silverstripe/restfulserver/tests</directory>
+        <directory>vendor/silverstripe/versionfeed/tests</directory>
+    </testsuite>
+
+    <!-- silverstripe core components (silverstripe/recipe-core) -->
     <testsuite name="core">
         <directory>vendor/silverstripe/framework/tests/php/</directory>
         <directory>vendor/silverstripe/config/tests</directory>
         <directory>vendor/silverstripe/assets/tests/php/</directory>
+    </testsuite>
+
+    <!-- silverstripe admin components (silverstripe/recipe-cms) -->
+    <testsuite name="admin">
+        <directory>vendor/silverstripe/admin/tests/php/</directory>
+        <directory>vendor/silverstripe/asset-admin/tests/php/</directory>
+        <directory>vendor/silverstripe/campaign-admin/tests/php/</directory>
+        <directory>vendor/silverstripe/cms/tests/</directory>
+        <directory>vendor/silverstripe/errorpage/tests/</directory>
+        <directory>vendor/silverstripe/graphql/tests/</directory>
+        <directory>vendor/silverstripe/reports/tests/</directory>
+        <directory>vendor/silverstripe/siteconfig/tests/php/</directory>
         <directory>vendor/silverstripe/versioned/tests/php/</directory>
     </testsuite>
 
-    <!-- silverstripe admin components -->
-    <testsuite name="admin">
-        <directory>vendor/silverstripe/cms/tests/</directory>
-        <directory>vendor/silverstripe/admin/tests/php/</directory>
-        <directory>vendor/silverstripe/campaign-admin/tests/php/</directory>
-        <directory>vendor/silverstripe/asset-admin/tests/php/</directory>
-        <directory>vendor/silverstripe/graphql/tests/</directory>
-        <directory>vendor/silverstripe/siteconfig/tests/php/</directory>
-        <directory>vendor/silverstripe/reports/tests/</directory>
-    </testsuite>
-    
     <groups>
         <exclude>
             <group>sanitychecks</group>
