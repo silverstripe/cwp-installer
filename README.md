@@ -1,15 +1,15 @@
 ## Overview
 
-Base project for the Common Web Platform Installer. See [the CWP home page](https://www.cwp.govt.nz/) for information.
+Base project for the Common Web Platform Installer. See the [CWP home page](https://www.cwp.govt.nz/) for information.
 
 ## Getting started
 
-Please see the [https://www.cwp.govt.nz/guides/core-technical-documentation/common-web-platform-core/en/quick-start](quickstart guide)
-for information on getting started with the CWP installer.
+Please see the [guide](https://www.cwp.govt.nz/developer-docs/en/2/getting_started/) for information on getting started 
+with the CWP installer.
 
 ## Getting support
 
-For CWP related issues please raise a [https://www.cwp.govt.nz/service-desk/new-request/](service desk) ticket.
+For CWP related issues please raise a [Service Desk](https://www.cwp.govt.nz/service-desk/new-request/) ticket.
 
 ## License
 
