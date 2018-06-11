@@ -11,7 +11,7 @@
         "silverstripe/recipe-blog": "1.1.x-dev",
         "silverstripe/recipe-form-building": "1.x-dev",
         "silverstripe/recipe-authoring-tools": "1.1.x-dev",
-        "silverstripe/recipe-collaboration": "1.x-dev",
+        "silverstripe/recipe-collaboration": "1.1.x-dev",
         "silverstripe/recipe-reporting-tools": "1.x-dev",
         "cwp/cwp-recipe-search": "2.1.x-dev",
         "silverstripe/recipe-services": "1.x-dev",
