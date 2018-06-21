@@ -13,9 +13,9 @@ matrix:
     - php: 7.0
       env: PHPUNIT_TEST=admin,cwpcms,Default
     - php: 7.1
-      env: PHPUNIT_TEST=core,cwpcore,admin,cwpcms,Default,cwpsearch PHPCS_TEST=1
+      env: PHPUNIT_TEST=collaboration,reporting,services,cwpsearch PHPCS_TEST=1
     - php: 7.2
-      env: PHPUNIT_TEST=cwpsearch
+      env: PHPUNIT_TEST=authoring,formbuilding,blog
 
 before_script:
   # Init PHP
@@ -24,6 +24,8 @@ before_script:
 
   # Install composer dependencies
   - composer validate
+    # for silverstripe/config tests
+  - case "$PHPUNIT_TEST" in core*) composer require --no-update mikey179/vfsStream ^1.6; esac
   - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
 script:
