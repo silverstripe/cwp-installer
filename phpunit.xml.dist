@@ -16,7 +16,7 @@
 <phpunit bootstrap="vendor/silverstripe/framework/tests/bootstrap.php" colors="true">
 
     <testsuite name="Default">
-        <directory>mysite/tests</directory>
+        <directory>app/tests</directory>
         <directory>vendor/silverstripe/subsites/tests</directory>
         <directory>vendor/silverstripe/registry/tests</directory>
         <directory>vendor/tractorcow/silverstripe-fluent/tests</directory>
