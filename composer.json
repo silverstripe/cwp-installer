@@ -18,10 +18,18 @@
     },
     "extra": [],
     "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.cwp.govt.nz/"
+      {
+        "type": "package",
+        "package": {
+          "name": "silverstripe/multivaluefield",
+          "type": "silverstripe-module",
+          "version": "2.3.4",
+          "dist": {
+            "url": "https://github.com/symbiote/silverstripe-multivaluefield/archive/2.3.4.zip",
+            "type": "zip"
+          }
         }
+      }
     ],
     "prefer-stable": true,
     "minimum-stability": "dev"
