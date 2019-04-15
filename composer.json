@@ -8,17 +8,17 @@
         "silverstripe/recipe-plugin": "^1",
         "cwp/cwp-recipe-core": "2.3.x-dev",
         "cwp/cwp-recipe-cms": "2.3.x-dev",
-        "silverstripe/recipe-blog": "1.1.x-dev",
-        "silverstripe/recipe-form-building": "1.2.x-dev",
-        "silverstripe/recipe-authoring-tools": "1.2.x-dev",
-        "silverstripe/recipe-collaboration": "1.2.x-dev",
-        "silverstripe/recipe-reporting-tools": "1.2.x-dev",
+        "silverstripe/recipe-blog": "1.3.x-dev",
+        "silverstripe/recipe-form-building": "1.3.x-dev",
+        "silverstripe/recipe-authoring-tools": "1.3.x-dev",
+        "silverstripe/recipe-collaboration": "1.3.x-dev",
+        "silverstripe/recipe-reporting-tools": "1.3.x-dev",
         "cwp/cwp-recipe-search": "2.3.x-dev",
-        "silverstripe/recipe-services": "1.1.x-dev",
-        "silverstripe/subsites": "2.2.x-dev",
+        "silverstripe/recipe-services": "1.3.x-dev",
+        "silverstripe/subsites": "2.3.x-dev",
         "tractorcow/silverstripe-fluent": "4.2.x-dev",
         "silverstripe/registry": "2.1.x-dev",
-        "cwp/starter-theme": "2.0.x-dev"
+        "cwp/starter-theme": "3.0.x-dev"
     },
     "suggest": {
         "silverstripe/recipe-content-blocks": "Supplement the CMS with a 'content block' approach to editing"
