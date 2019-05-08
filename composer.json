@@ -17,7 +17,7 @@
         "silverstripe/recipe-services": "1.3.x-dev",
         "silverstripe/subsites": "2.3.x-dev",
         "tractorcow/silverstripe-fluent": "4.2.x-dev",
-        "silverstripe/registry": "2.1.x-dev",
+        "silverstripe/registry": "2.2.x-dev",
         "cwp/starter-theme": "3.0.x-dev"
     },
     "suggest": {
