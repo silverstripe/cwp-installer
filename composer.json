@@ -8,7 +8,7 @@
         "cwp/starter-theme": "1.1.x-dev"
     },
     "require-dev": {
-        "cwp/cwp-recipe-basic-dev": "^1.1@stable"
+        "cwp/cwp-recipe-basic-dev": "1.x-dev"
     },
     "suggest": {
         "silverstripe/textextraction": "Required for document text searching within CWP"
