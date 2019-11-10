@@ -1,19 +1,21 @@
 language: php
 
-dist: trusty
+dist: xenial
+
+services:
+  - mysql
+  - postgresql
 
 env:
   global:
-    - COMPOSER_ROOT_VERSION=2.4.x-dev
+    - COMPOSER_ROOT_VERSION=2.x-dev
 
 matrix:
   include:
     - php: 7.1
-      env: PHPUNIT_TEST=core,cwpcore
+      env: PHPUNIT_TEST=core,cwpcore,admin,cwpcms,Default,cwpsearch PHPCS_TEST=1
     - php: 7.2
       env: PHPUNIT_TEST=admin,cwpcms,Default
-    - php: 7.1
-      env: PHPUNIT_TEST=core,cwpcore,admin,cwpcms,Default,cwpsearch PHPCS_TEST=1
     - php: 7.2
       env: PHPUNIT_TEST=cwpsearch
 
