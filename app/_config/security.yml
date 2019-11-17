@@ -10,7 +10,7 @@ Except:
 # See https://www.cwp.govt.nz/developer-docs/en/2/working_with_projects/security/
 # See https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
 CWP\Core\Control\InitialisationMiddleware:
-  strict_transport_security: 'max-age: 300'
+  strict_transport_security: 'max-age=300'
 # Configure SSL redirection for every route (override default ForceSSLPatterns).
 # Required for the HSTS configuration above to take effect.
 SilverStripe\Core\Injector\Injector:
