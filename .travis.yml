@@ -26,6 +26,7 @@ before_script:
 
   # Install composer dependencies
   - composer validate
+  - composer require --no-update sminnee/phpunit-mock-objects:^3
   - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
 script:
