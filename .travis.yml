@@ -4,7 +4,6 @@ dist: xenial
 
 services:
   - mysql
-  - postgresql
 
 env:
   global:
@@ -15,8 +14,10 @@ matrix:
     - php: 7.1
       env: PHPUNIT_TEST=core,cwpcore,admin,cwpcms,Default,cwpsearch PHPCS_TEST=1
     - php: 7.2
+      env: PHPUNIT_TEST=core,cwpcore,admin,cwpcms
+    - php: 7.3
       env: PHPUNIT_TEST=admin,cwpcms,Default
-    - php: 7.2
+    - php: 7.4
       env: PHPUNIT_TEST=cwpsearch
 
 before_script:
@@ -26,6 +27,8 @@ before_script:
 
   # Install composer dependencies
   - composer validate
+  # Fix for running phpunit 5 on php 7.4+
+  - composer require --no-update sminnee/phpunit-mock-objects:^3
   - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
 script:
