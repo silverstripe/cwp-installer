@@ -19,5 +19,8 @@
   ],
   "exclude": [
     "silverstripe/recipe-plugin"
+  ],
+  "upgrade-only": [
+    "tractorcow/silverstripe-fluent"
   ]
 }
