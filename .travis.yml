@@ -1,38 +1,26 @@
-language: php
+version: ~> 1.0
 
-dist: xenial
-
-services:
-  - mysql
+import:
+  - silverstripe/silverstripe-travis-shared:config/provision/self.yml
 
 env:
   global:
-    - COMPOSER_ROOT_VERSION=2.x-dev
+    - PHPUNIT_TEST=1
+    - DB=MYSQL
 
-matrix:
+jobs:
   include:
     - php: 7.1
-      env: PHPUNIT_TEST=core,cwpcore,admin,cwpcms,Default,cwpsearch PHPCS_TEST=1
+      env:
+        - PHPUNIT_SUITE="core,cwpcore,admin,cwpcms"
+        - PHPCS_TEST=1
+    - php: 7.2
+      env:
+        - PHPUNIT_SUITE="Default,cwpsearch"
+        - COW_TEST=1
     - php: 7.3
-      env: PHPUNIT_TEST=admin,cwpcms,Default
+      env:
+        - PHPUNIT_SUITE="admin,cwpcms,Default"
     - php: 7.4
-      env: PHPUNIT_TEST=cwpsearch
-
-before_script:
-  # Init PHP
-  - phpenv rehash
-  - phpenv config-rm xdebug.ini
-
-  # Install composer dependencies
-  - composer validate
-  # Fix for running phpunit 5 on php 7.4+
-  - composer require --no-update sminnee/phpunit-mock-objects:^3
-  - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
-
-script:
-  - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite $PHPUNIT_TEST; fi
-  - if [[ $PHPUNIT_COVERAGE_TEST ]]; then phpdbg -qrr vendor/bin/phpunit --coverage-clover=coverage.xml; fi
-  - if [[ $PHPCS_TEST ]]; then vendor/bin/phpcs app/; fi
-
-after_success:
-  - if [[ $PHPUNIT_COVERAGE_TEST ]]; then bash <(curl -s https://codecov.io/bash) -f coverage.xml; fi
+      env:
+        - PHPUNIT_SUITE="cwpsearch"
