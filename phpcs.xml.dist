@@ -2,6 +2,8 @@
 <ruleset name="CWPInstaller">
     <description>CodeSniffer ruleset for CWP coding conventions.</description>
 
+    <file>app</file>
+
     <rule ref="PSR2" >
         <!-- Allow classes to not declare a namespace - i.e. Page, PageController, and friends -->
         <exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
