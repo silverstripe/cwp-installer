@@ -1,7 +1,7 @@
 version: ~> 1.0
 
 import:
-  - silverstripe/silverstripe-travis-shared:config/provision/self.yml
+  - silverstripe/silverstripe-travis-shared:config/provision/cwp-self.yml
 
 env:
   global:
@@ -12,15 +12,21 @@ jobs:
   include:
     - php: 7.1
       env:
-        - PHPUNIT_SUITE="core,cwpcore,admin,cwpcms"
+        - PHPUNIT_SUITE="cwpcore"
         - PHPCS_TEST=1
     - php: 7.2
       env:
-        - PHPUNIT_SUITE="Default,cwpsearch"
+        - PHPUNIT_SUITE="Default"
         - COW_TEST=1
     - php: 7.3
       env:
-        - PHPUNIT_SUITE="admin,cwpcms,Default"
+        - PHPUNIT_SUITE="cwpsearch"
     - php: 7.4
       env:
-        - PHPUNIT_SUITE="cwpsearch"
+        - PHPUNIT_SUITE="cwpcms"
+    - php: nightly
+      env:
+        - PHPUNIT_SUITE="cwpcms"
+        - COMPOSER_INSTALL_ARG=--ignore-platform-reqs
+  allow_failures:
+    - php: nightly
