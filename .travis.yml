@@ -24,7 +24,7 @@ jobs:
     - php: 7.4
       env:
         - PHPUNIT_SUITE="cwpcms"
-    - php: nightly
+    - php: 8.0
       env:
         - PHPUNIT_SUITE="cwpcms"
         - COMPOSER_INSTALL_ARG=--ignore-platform-reqs
